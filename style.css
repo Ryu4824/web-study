@@ -1,0 +1,36 @@
+body{
+  margin:0;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 300px 1fr;
+}
+#active{
+  color:blue;
+}
+a{
+  color:blue-violet;
+  text-decoration:none;
+}
+h1{
+  font-size:45px;
+    text-align: center;
+    border-bottom: solid 1px;
+    margin:0px;
+    padding:20px;
+}
+ul{
+  border-right: solid 1px;
+  width: 200px;
+  margin:0;
+  padding:20px;
+  padding-left: 40px;
+}
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+  ul{
+    border-right:none;
+  }
+}
